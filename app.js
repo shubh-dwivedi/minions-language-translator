@@ -1,4 +1,12 @@
-console.log("Script is working! hurray")
+var btnTranslate = document.querySelector("#btn-translate")
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
-var usname= prompt("Apna naam bol")
-alert("Apna kaam kar ne waidi!! "+usname)
+function clickHandler() {
+    console.log("clicked");
+    console.log("input: "+ txtInput.value)
+};
+
+btnTranslate.addEventListener("click", clickHandler)
+
+
