@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #F2C94C;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+nav {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F2C94C;
+    text-align: center;
+}
