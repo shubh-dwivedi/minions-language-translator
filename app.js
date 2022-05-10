@@ -8,11 +8,6 @@ function constructUrl(input) {
     return serverURL + "?text=" + input;
 }
 
-function errorHandler(error) {
-    console.log("An error occured:"+error);
-    alert("Something went wrong! Please try again later...")
-}
-
 function clickHandler() {
     fetch(constructUrl(txtInput.value))
     .then(function responseHandler(response) {
@@ -22,7 +17,7 @@ function clickHandler() {
         var textTranslated = json.contents.translated;
         outputDiv.innerText = textTranslated;
     })
-    .catch(error)
+    .catch(error => { console.log(error);});
 };
 
 btnTranslate.addEventListener("click", clickHandler)
