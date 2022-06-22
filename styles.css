@@ -1,21 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 :root {
-    --primary-color: #F2C94C;
+    --primary-color: #FFC31F;
+}
+
+.heading-main {
+    font-family: 'Titan one';
+    text-align: center;
+    font-size: 4rem;
 }
 
 textarea {
     display: block;
-    width: 90%;
-    height: 10vh;
-    margin: 1rem;
+    width: 50%;
+    height: 13vh;
+    margin: 1rem auto;
     padding: 1rem;
+    border: 3px solid var(--primary-color);
+}
+
+.btn {
+    display: block;
+    margin: 1rem auto;
+    font-size: large;
+    border: 3px solid var(--primary-color);
+    background-color: #FFD970;
+}
+
+#output-heading {
+    margin: auto;
+    text-align: center;
 }
 
 #output {
     border: 1px solid black;
-    height: 10vh;
-    width: 90%;
-    margin: 1rem;
+    height: 15vh;
+    width: 50%;
+    margin: 1rem auto;
     padding: 1rem;
+    border: 3px solid var(--primary-color);
 }
 
 nav {
@@ -25,9 +49,9 @@ nav {
 }
 
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
-    width: 100%;
+    width: 97%;
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
