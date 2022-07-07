@@ -5,6 +5,11 @@
     --primary-color: #FFC31F;
 }
 
+body {
+    margin-right: 0;
+    padding-right: 0.5rem;
+}
+
 .heading-main {
     font-family: 'Titan one';
     text-align: center;
@@ -40,6 +45,7 @@ textarea {
     margin: 1rem auto;
     padding: 1rem;
     border: 3px solid var(--primary-color);
+    margin-bottom: 4rem;
 }
 
 nav {
@@ -49,9 +55,8 @@ nav {
 }
 
 footer {
-    position:fixed;
+    position:static;
     bottom: 0;
-    width: 97%;
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
