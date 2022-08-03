@@ -79,7 +79,6 @@ footer {
 @media screen and (max-width: 1280px) {
     .side-image, .side-image2 {
         display: none;
-        height: 40vh;
     }
 
     .heading-main {
