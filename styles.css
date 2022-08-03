@@ -52,14 +52,15 @@ textarea {
 .side-image {
     float: left;
     margin-left: 30px;
-    margin-top: 0px;
-    height: 450px; 
+    margin-top: -10px;
+    object-fit: cover;
+    height: 430px; 
 }
 .side-image2 {
     float: right;
     margin-right: 30px;
-    margin-top: 20px;
-    height: 55vh; 
+    margin-top: 40px;
+    height: 50vh; 
 }
 
 nav {
